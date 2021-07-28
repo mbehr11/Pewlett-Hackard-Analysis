@@ -33,13 +33,6 @@ FOREIGN KEY(dept_no) REFERENCES departments (dept_no),
 	hire_date DATE NOT NULL,
 	PRIMARY KEY (emp_no)
 );
-CREATE TABLE Job_Titles (
-	emp_no INT NOT NULL,
-	from_date DATE NOT NULL,
-	to_date DATE NOT NULL,
-FOREIGN KEY (emp_no) REFERENCES salaries (emp_no),
-  PRIMARY KEY (emp_no)
-);
 CREATE TABLE managers (
 	dept_no VARCHAR NOT NULL,
 	emp_no INT NOT NULL,
@@ -57,4 +50,13 @@ CREATE TABLE salaries (
   to_date DATE NOT NULL,
   FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
   PRIMARY KEY (emp_no)
+);
+
+CREATE TABLE job_titles(
+	emp_no INT NOT NULL,
+	title VarChar(40) NOT NULL,
+	from_date DATE NOT NULL,
+	to_date DATE NOT NULL,
+FOREIGN KEY (emp_no) REFERENCES salaries(emp_no),
+  PRIMARY KEY (emp_no, title, from_date)
 );
