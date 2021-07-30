@@ -38,6 +38,7 @@ After working with Pewlett-Hackard, we identified those baby boomers who are ret
 ![alttext](https://github.com/mbehr11/Pewlett-Hackard-Analysis/blob/main/Queries/retiring_titles_table.PNG)
 
 4.	Mentorship eligibility:
+
 ![alttext](https://github.com/mbehr11/Pewlett-Hackard-Analysis/blob/main/Queries/mentornship_eligability_code.PNG)
 
 #### Mentornship_eligability table ####
