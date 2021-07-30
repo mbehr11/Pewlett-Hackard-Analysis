@@ -50,10 +50,15 @@ After working with Pewlett-Hackard, we identified those baby boomers who are ret
 
 ### Pewlett-Hackard Analysis Results:
 1.	How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+
 •	There will be 90.398 roles that will need to be filled once the baby boomer employees start retiring. 
+
 •	Here is the breakdown by department:
+
 •	![alttext](https://github.com/mbehr11/Pewlett-Hackard-Analysis/blob/main/Queries/num_roles_filled.PNG)
 
 2.	Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+
 •	No there is not enough employees in each department to mentor the next generation. 
+
 •	![alttext]( https://github.com/mbehr11/Pewlett-Hackard-Analysis/blob/main/Queries/num_mentorship.PNG)
