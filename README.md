@@ -61,4 +61,4 @@ After working with Pewlett-Hackard, we identified those baby boomers who are ret
 
 •	No there is not enough employees in each department to mentor the next generation. 
 
-•	![alttext]( https://github.com/mbehr11/Pewlett-Hackard-Analysis/blob/main/Queries/num_mentorship.PNG)
+![alttext]( https://github.com/mbehr11/Pewlett-Hackard-Analysis/blob/main/Queries/num_mentorship.PNG)
