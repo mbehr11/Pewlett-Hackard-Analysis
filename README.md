@@ -25,7 +25,8 @@ After working with Pewlett-Hackard, we identified those baby boomers who are ret
 #### retirement_titles table ####
 ![alttext](https://github.com/mbehr11/Pewlett-Hackard-Analysis/blob/main/Queries/retirement_titles_table.PNG)
 
-2.	Using Distinct ON to remove duplicates
+2.	Using Distinct ON to remove duplicates:
+
 ![alttext](https://github.com/mbehr11/Pewlett-Hackard-Analysis/blob/main/Queries/unique_title_code.PNG)
 
 #### Unique_titles table ####
