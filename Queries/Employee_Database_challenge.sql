@@ -52,3 +52,16 @@ ORDER BY e.emp_no;
 
 select *
 from mentorship;
+
+--Additional Tables
+SELECT COUNT(*)
+FROM unique_titles;
+
+SELECT title,count
+FROM retiring_titles
+order by title;
+
+SELECT title, COUNT(*)
+FROM mentorship
+group by title
+order by title;
